@@ -1,0 +1,16 @@
+.nav_home{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    padding: 5px;
+    list-style: none;
+    margin-block: auto;
+}
+.nav_home li{
+    margin-inline: 1%;
+    color: white;
+    text-decoration: none;
+    padding-inline: 5%;
+    font-family:  "Poppins", sans-serif;
+    font-size: 200%;
+}

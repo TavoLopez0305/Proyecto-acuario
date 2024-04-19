@@ -1,0 +1,85 @@
+body{ 
+    background-color: #08100C;
+
+}
+.global-nav{
+    width: 96%;
+    margin: 1%;
+    padding: 1%;
+    background-color: #25342F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.golbal-logo_acuario{
+    width: 20%;
+    height: auto;
+    padding: 1%;
+}
+.global-nav ul{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    padding: 5px;
+    list-style: none;
+    margin-block: auto;
+    margin-inline-end: 10%;
+
+}
+.global-nav li{
+    margin-inline: 1%;
+    color: white;
+    text-decoration: none;
+    padding-inline: 5%;
+    font-family:  "Poppins", sans-serif;
+    font-size: 170%;
+
+}
+.scroll{
+    overflow-y: auto;
+}
+.img-backgraund{
+    background-image: url(../../multimedia/acuario.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+     margin-inline: 2.5%;
+    padding-inline: 2%;
+    padding-block-end: 25%;
+    max-width: 100%;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.img-backgraund h1{
+    color: black;
+    font-size: 350% ;
+    font-weight: bold;
+    margin-inline: auto;
+    font-family:  "Poppins", sans-serif;
+
+}
+.img-backgraund p{
+    max-width: 40% ;
+    margin-inline: auto;
+    font-family:  "Poppins", sans-serif;
+    font-size: 170%;
+    text-align: center;
+
+}
+
+.Section-two{
+    padding: 2%;
+}
+.Section-two h1{
+    margin-inline-start: 5%;
+    color: white;
+    text-decoration: underline;
+    font-size: 600%;
+}
+.Card-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: repeat(1fr);
+}

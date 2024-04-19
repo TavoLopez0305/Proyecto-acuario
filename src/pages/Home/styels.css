@@ -1,0 +1,88 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.img_box{
+    background-image: url(../../multimedia/Backgraund.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    max-width: 100%;
+    max-height: auto;
+}
+.box_nav_home{
+    width: 97%;
+    height: auto;
+    margin: 1%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo_acuario{
+    width: 28%;
+    height: auto;
+    padding: 1%;
+}
+.nav_home{
+    margin-inline-end: 10%;
+}
+.main-box{
+    width: 90%;
+    height: auto;
+    margin: 1%;
+    padding: 1%;
+}
+.tittle-box{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.main-box .part-one{
+    padding: 1%;
+    max-width: 60%;
+    height: auto;
+    color: white;
+    font-family: "Petit Formal Script", cursive ;
+    font-size: 50px;
+    margin-block-end: 0;
+}
+.main-box .part-two{
+    padding: 1%;
+    margin-inline-start: 1%;
+    max-width: 60%;
+    height: auto;
+    color: white;
+    font-family: "Petit Formal Script", cursive ;
+    font-size: 40px;
+    margin-block: 0;
+}
+.main-box ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: white;
+    margin-top: 3%;
+    padding-block: 3%;
+}
+.main-box ul li{
+    text-decoration: none;
+    font-family:  "Poppins", sans-serif;
+    font-size: 30px;
+    font-family: "Noto Serif Display", serif;
+    padding-inline: 2%;
+    margin-block: auto;
+    
+}
+
+.box_nav_home{
+    padding: 1%;
+    display: grid;
+}
+footer{
+    display: flex;
+    margin: 1%;
+    padding-block-end: 2%;
+}
