@@ -10,7 +10,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    z-index: 1000;
 }
 .golbal-logo_acuario{
     width: 20%;

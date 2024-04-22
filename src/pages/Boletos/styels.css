@@ -1,0 +1,28 @@
+.Body-tickets{
+    max-width: 100%;
+    height: auto;
+    font-family:  "Poppins", sans-serif;
+
+
+}
+.img-backgraund-tickets{
+    background-image: url(../../multimedia/tickets.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: auto;
+    padding-block-start: 55%;
+    
+}
+.box-blue{
+    background-color:#031C54 ;
+    width:60%;
+    color: #EFB810;
+    font-size: 400%;
+}
+.box-blue h1{
+    padding-inline-start: 5%;
+}
+.backgraund-color-white{
+    background-color: white;
+}

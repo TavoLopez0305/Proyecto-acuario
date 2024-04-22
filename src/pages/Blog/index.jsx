@@ -18,7 +18,7 @@ const Blog_ = () =>{
             <ul>
                 <li><Link to ="/">Home</Link></li>
                 <li><Link to="/Boletos">Boletos</Link></li>
-                <li><Link to="/Contacto">Contacto</Link></li>
+                <li><Link to="/Información">Contacto</Link></li>
             </ul>
         </nav>
         <article className="scroll">

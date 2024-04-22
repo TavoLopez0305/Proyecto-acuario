@@ -1,0 +1,98 @@
+
+.backgraund-contact{
+    background-color: #04315D;
+    max-width:100%;
+    max-height: auto;
+    font-family:  "Poppins", sans-serif;
+
+}
+
+.global-nav-contac{
+    width: 100%;
+    background-color: #04315D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.global-nav-contac ul{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    padding: 5px;
+    list-style: none;
+    margin-block: auto;
+    margin-inline-end: 10%;
+
+}
+.global-nav-contac li{
+    margin-inline: 1%;
+    color: white;
+    text-decoration: none;
+    padding-inline: 5%;
+    font-family:  "Poppins", sans-serif;
+    font-size: 170%;
+
+}
+.box-img-contact{
+    background-image: url(../../multimedia/horario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: auto;
+
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box-img-contact section{
+    margin: 1%;
+    padding: 1%;
+}
+.box-img-contact section h2{
+    color: #EFB810;
+    font-size: 600%;
+    margin: 0;
+    
+}
+.seccion-one{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.seccion-one p{
+   
+    font-weight: bolder;
+    text-align: justify;
+    margin: 0;
+    font-size: 130%;
+}
+.especial-text {
+    color: #EFB810;
+    padding-block:1% ;
+    font-size: 160%;
+}
+.text-footer{
+    padding-block: 20%;
+    padding-inline: 20%;
+}
+.seccion-two{
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+}
+.seccion-two div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    color: white;
+    font-size: 120%;
+    font-weight: bold;
+    width: fit-content;
+    margin: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
