@@ -1,0 +1,16 @@
+.Container_img_ticket{
+    padding: 1%;
+    margin: .5%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.img_ticket{
+    max-width: 200px;
+    max-height: auto;
+}
+.Container_img_ticket p{
+    font-size: 200%;
+    color: blue;
+    max-width: 40%;
+    max-height: auto;
+}

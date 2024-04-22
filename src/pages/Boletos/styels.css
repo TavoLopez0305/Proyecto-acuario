@@ -25,4 +25,30 @@
 }
 .backgraund-color-white{
     background-color: white;
+
+}
+.nav-items{
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.nav-items i{
+    width: 20%;
+    padding-inline: 1%;
+    margin: 0;
+}
+.box-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: auto;
+}
+.box-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: repeat(1fr);
+    padding-inline: 15%;
 }
