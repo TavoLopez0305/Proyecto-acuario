@@ -6,3 +6,6 @@
     flex-direction: row;
     justify-content: space-around;
 }
+.container-icon-buy p{
+    font-size: 150%;
+}

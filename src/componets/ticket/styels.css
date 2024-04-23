@@ -3,14 +3,21 @@
     margin: .5%;
     border: 1px solid gray;
     border-radius: 5px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
 }
 .img_ticket{
     max-width: 200px;
     max-height: auto;
+    margin-inline: auto;
 }
 .Container_img_ticket p{
     font-size: 200%;
     color: blue;
-    max-width: 40%;
+    max-width: 70%;
     max-height: auto;
+    margin-inline: auto;
+    text-align: center;
+    font-weight: bolder;
 }

@@ -3,6 +3,9 @@ import './styels.css'
 import Logo_Acuario from '../../multimedia/Logo-AcuarioMichin-Guadalajara-2023.png'
 import '../Boletos/Database.js';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+
 import { Ticket } from "../../componets/ticket/";
 import { Nav_tickes } from "../../componets/nav-tickets";
 import { Footer } from "../../componets/footer";
@@ -30,17 +33,17 @@ const Boletos = () =>{
                     </article>
                     <article className="backgraund-color-white">
                         <nav className="nav-items">
-                            <i>corazon </i>
+                        <FontAwesomeIcon icon="fa-regular fa-heart" style={{color: "#0d5d90",}} />
                             <i> carrito</i>
                         </nav>
                         <section className="box-flex">
                                 <section>
-                                <aside>
-                                    <div>
+                                <aside className="lateral-nav">
+                                    <div className="tags">
                                         <i></i>
                                         <p>Tags</p>
                                     </div>
-                                    <ul>
+                                    <ul className="list-buy">
                                         {DataBase.map(element =>(
                                          <Nav_tickes icon={element.icon} precio={element.precio} />
                                         ))}

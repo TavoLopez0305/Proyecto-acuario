@@ -25,6 +25,7 @@
 }
 .backgraund-color-white{
     background-color: white;
+    padding: 2%;
 
 }
 .nav-items{
@@ -38,6 +39,8 @@
     width: 20%;
     padding-inline: 1%;
     margin: 0;
+    font-size: 200%;
+    color:#0D5D97 ;
 }
 .box-flex{
     display: flex;
@@ -45,6 +48,35 @@
     justify-content: space-between;
     max-width: 100%;
     max-height: auto;
+    padding: 1%;
+    border: solid 1px black;
+
+}
+.lateral-nav{
+    display: flex;
+    flex-direction: column;
+    padding: 50%;
+    width: 100%;
+    margin-inline: 50% ;
+
+}
+.tags{
+    border-bottom: solid 1px black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-inline: 10%;
+    
+}
+.tags p{
+    font-size: 150%;
+}
+.list-buy{
+    border-bottom: solid 1px black;
+    width: max-content;
+    padding: 1%;
+    padding-inline: 4%;
+
 }
 .box-grid{
     display: grid;
